@@ -1,0 +1,18 @@
+
+.task .title {
+    text-align: left;
+    width: 90px;
+   
+}
+.task .remove {
+    padding-left: 95px;
+}
+.container{
+    margin-left: 50%;
+}
+.color{
+    color: red;
+}
+h1{
+    margin-left: 43%;
+}
