@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { Task } from '../task.model';
+
 
 @Component({
   selector: 'app-list',
@@ -9,6 +10,8 @@ import { Task } from '../task.model';
 export class ListComponent implements OnInit {
 
   constructor() { }
+
+  
 
   public tasklist: Task []=[];
 
