@@ -32,8 +32,8 @@
     </div>
     <br>
     <div>
-        <label class="title"> Date:</label>
-        <input class="test" [(ngModel)]="task.date" type="text">
+        <label class="title"> Due Date:</label>
+        <input class="test"  [(ngModel)]="task.date" type="date">
     </div>
     <br>
     <div>
@@ -48,7 +48,7 @@
         <tr>
           <th>Title</th>
           <th>Description</th>
-          <th>Date</th>
+          <th>Due Date</th>
           <th>Tag #</th>
         </tr>
     </thead>
@@ -61,6 +61,9 @@
       </tr>
     </tbody>
   </table>
+  <button class="btn btn-primary btn-sm" (click)="sortTitle()">Sort Title</button>
+  &nbsp;
+  <button class="btn btn-primary btn-sm"(click)="sortDate()" >Sort Date</button>
 </div>
 <br>
 <br>

@@ -29,4 +29,21 @@ export class ListComponent implements OnInit {
     }
   }
 
+  sortTitle(){
+  this.tasklist.sort((a,b)=>
+  a.title.localeCompare(b.title))
+  }
+  
+  
+  sortDate(){
+    this.tasklist.sort((a,b)=>
+    a.date.localeCompare(b.date))
+  }
+  
+ 
+
+
+
+
+
 }
